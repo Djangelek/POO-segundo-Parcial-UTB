@@ -13,7 +13,7 @@ public class Velocista extends Ciclista {
     
     //imprimir tipo
     public String imprimirTipo() {
-        return super.toString()+"Velocista";
+        return super.imprimirTipo()+"Velocista";
     }
     //toString
     public String toString() {
