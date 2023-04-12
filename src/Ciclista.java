@@ -1,4 +1,4 @@
-public abstract class Ciclista {
+public class Ciclista {
     //atributos
     private int identificador;
     private String nombre;
