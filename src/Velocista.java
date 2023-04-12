@@ -12,12 +12,10 @@ public class Velocista extends Ciclista {
     //metodos
     
     //imprimir tipo
-    @Override
     public String imprimirTipo() {
         return super.toString()+"Velocista";
     }
     //toString
-    @Override
     public String toString() {
         return super.toString()+", potenciaPromedio=" + potenciaPromedio+"(Vatios)" + ", velocidadPromedioSprint="
                 + velocidadPromedioSprint+"(Km/h)" ;

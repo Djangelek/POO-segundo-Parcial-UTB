@@ -10,12 +10,12 @@ public class Contrarelojista extends Ciclista {
     
     //Metodos
     //imprimir tipo
-    @Override
+
     public String imprimirTipo() {
         return super.imprimirTipo()+"Contrarelojista";
     }
     //toString
-    @Override
+
     public String toString() {
         return super.toString()+", velocidadMaxima=" + velocidadMaxima+"(Km/h)" ;
     }
