@@ -12,12 +12,12 @@ public class Escalador extends Ciclista{
 
     //Metodos
     //imprimir tipo
-
+    @Override
     public String imprimirTipo() {
         return super.imprimirTipo()+"Escalador";
     }
     //toString
-
+    @Override
     public String toString() {
         return super.toString()+", aceleracionPromedioSubida=" + aceleracionPromedioSubida+"(m/s2)" + ", gradoRampaSoportada="
                 + gradoRampaSoportada+"(grados)";
