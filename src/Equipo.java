@@ -34,8 +34,8 @@ public class Equipo {
         }
         System.out.println("");
         System.out.println("----------------------------------------------------------------");
-        
     }
+    
     public void agregarCiclista(){
         //pedir datos del ciclista
         //preguntar de que tipo es
