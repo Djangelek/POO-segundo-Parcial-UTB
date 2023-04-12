@@ -14,7 +14,6 @@ public abstract class Ciclista {
         return "Es un ";
     }
 
-    @Override
     public String toString() {
         return "identificador=" + identificador + ", nombre=" + nombre + ", tiempoAcumulado="
                 + tiempoAcumulado+("(minutos)") + ", tipo=" + imprimirTipo();
