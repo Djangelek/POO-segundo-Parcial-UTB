@@ -19,6 +19,7 @@ public class Equipo {
     //METODOS
     Scanner sc = new Scanner(System.in);
     public void imprimirDatos(){
+        // metodo calcularTiempoCarrera
         calcularTiempoCarrera();
         System.out.println("----------------------------------------------------------------");
         System.out.println("|                Imprimir datos de un equipo                   |");
